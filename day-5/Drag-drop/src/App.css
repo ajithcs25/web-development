@@ -1,0 +1,16 @@
+.drag-container {
+  max-width: 400px;
+  margin: 40px auto;
+}
+
+.drag-item {
+  padding: 12px;
+  margin: 8px 0;
+  border-radius: 6px;
+  cursor: grab;
+}
+
+.drag-item:active {
+  cursor: grabbing;
+  
+}

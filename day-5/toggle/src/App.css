@@ -1,0 +1,15 @@
+.app {
+  min-height: 100vh;
+  padding: 20px;
+  transition: all 0.3s;
+}
+
+.app.light {
+  background: #ffffff;
+  color: #000000;
+}
+
+.app.dark {
+  background: #121212;
+  color: #ffffff;
+}
